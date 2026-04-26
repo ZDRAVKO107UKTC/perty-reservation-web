@@ -1,0 +1,25 @@
+
+.image-map {
+    position: absolute;
+    top: 120px; /* za visochinata na navbara  */
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        transform: rotate(90deg);
+        transform-origin: top left;
+        width: 100vh;
+        overflow-x: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.btn-purp{
+    background-color: purple;
+    color: white;
+}
+.btn-close-white{
+   color: white;
+}
